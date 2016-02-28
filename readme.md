@@ -251,7 +251,6 @@ Mixin that hides text:
 
 Set of mixins to make triangle with css border property:
 
-* triangle-base
 * triangle-top($width, $height, $color)
 * triangle-bottom($width, $height, $color)
 * triangle-left($width, $height, $color)
