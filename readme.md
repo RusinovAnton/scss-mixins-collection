@@ -15,36 +15,49 @@ bower install --save scss-mixins-collection
 
 ## WHATS INSIDE
 
-[**background-gradient**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_background-gradient.scss)
+[**arrow**]([**block-centering**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/arrow.scss))
 
-Сontains:
-* gradient-v - vertical gradient;
-* gradient-h - horizontal gradient;
-* gradient-radial - radial gradient;
+Mixins to make arrows with border:
+
+* arrow-top($size, $width, $color)
+* arrow-bottom($size, $width, $color)
+* arrow-left($size, $width, $color)
+* arrow-right($size, $width, $color)
+* arrow-top-left($size, $width, $color)
+* arrow-top-right($size, $width, $color)
+* arrow-bottom-left($size, $width, $color)
+* arrow-bottom-right($size, $width, $color)
 
 -----
 
-[**block-centering**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_block-centering.scss)
+[**background-gradient**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_background-gradient.scss)
 
-Contains:
+Mixin that help you to make crossbrowser background gradients:
+
+* gradient-v($startColor, $endColor)
+* gradient-h($startColor, $endColor)
+* gradient-radial($startColor, $startPos, $endColor, $endPos)
+
+[**block-centering**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_block-centering.scss)
+
 * centered, centered-h, centered-v - centering absolute positioned block relative to his parent (-h - only horizontal, -v - only vertical);
 * block-center - centering block with "margin: auto";
 
 -----
 
-[**clearfix**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_clearfix.scss)
+[**clearfix**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_clearfix.scss)
 
 * clearfix - bootstrap's clearfix hack;
 
 -----
 
-[**device-z-index-fix**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_device-z-index-fix.scss)
+[**device-z-index-fix**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_device-z-index-fix.scss)
 
 Fix for z-index [problem](http://stackoverflow.com/questions/26408978/android-browsers-position-fixed-and-z-index-issue) for absolute/fixed positioned blocks on Android browser;
 
 -----
 
-[**ellipsis**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_ellipsis.scss)
+[**ellipsis**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_ellipsis.scss)
 
   Contains mixins to make block that cut text adding ellipsis:
 * ellipsis
@@ -54,27 +67,32 @@ Fix for z-index [problem](http://stackoverflow.com/questions/26408978/android-br
 
 -----
 
-[**fullwidth**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_fullwidth.scss)
+[**fullwidth**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fullwidth.scss)
 
-Contains:
-* fullwidth, fullleft, fullright - hack for making fullwidth blocks out of container;
-* full-width-height - resizing absolute block for its parent size;
-
------
-
-[**hack-bootstrap**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_hack-bootstrap.scss)
-
-* hack-bootstrap - applying custom paddings for bootstrap columns along with row's margin changes;
+This mixins use hack for making fullwidth blocks out of container:
+* full-width
+* full-left
+* full-right
 
 -----
 
-[**placeholder**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_placeholder.scss)
+[**hack-bootstrap**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_hack-bootstrap.scss)
 
-* placeholder - applying styles for input's placeholders;
+Applying custom paddings for bootstrap columns along with row's margin changes:
+
+* hack-bootstrap($padding)
 
 -----
 
-[**pseudo-block**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_pseudo-block.scss)
+[**placeholder**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_placeholder.scss)
+
+Applying styles for input's placeholders:
+
+* placeholder
+
+-----
+
+[**pseudo-block**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_pseudo-block.scss)
 
 * pseudo-block - making blocks with :before, :after pseudo elements;
 * pseudo-absolute - alias for pseudo-block(absolute);
@@ -83,61 +101,61 @@ Contains:
 
 -----
 
-[**inline-list**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_inline-list.scss)
+[**inline-list**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_inline-list.scss)
 
 * inline-list - apply this mixin for ol/ul to make li stack horizontally;
 
 -----
 
-[**on-state**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_on-state.scss)
+[**on-state**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_on-state.scss)
 
 * on-state - applying styles on :hover, :focus, :active;
 
 -----
 
-[**prefix**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_prefix.scss)
+[**prefix**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_prefix.scss)
 
 * prefix - adding vendor prefixes;
 
 -----
 
-[**reset-list**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_reset-list.scss)
+[**reset-list**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-list.scss)
 
 * reset-list - reset for default ol/ul styles;
 
 -----
 
-[**reset-link**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_reset-link.scss)
+[**reset-link**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-link.scss)
 
 * reset-link - reset for default links styles;
 
 -----
 
-[**responsive-image**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_responsive-image.scss)
+[**responsive-image**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_responsive-image.scss)
 
 * responsive-image - fit image with various aspect ratio into fixed size wrapper;
 
 -----
 
-[**rotate**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_rotate.scss)
+[**rotate**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_rotate.scss)
 
 * rotate - alias for 'transform: rotate';
 
 -----
 
-[**row**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_row.scss)
+[**row**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_row.scss)
 
 * row - adding clearfix + negative margin;
 
 -----
 
-[**scale**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_scale.scss)
+[**scale**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_scale.scss)
 
 * scale - alias for "transform: scale";
 
 -----
 
-[**skew**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_skew.scss)
+[**skew**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_skew.scss)
 
 Contains aliases for "transform: skew":
 * skew($x, $y)
@@ -146,25 +164,25 @@ Contains aliases for "transform: skew":
 
 -----
 
-[**square**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_square.scss)
+[**square**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_square.scss)
 
 * square - making block with same width, height;
 
 -----
 
-[**touch-scroll**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_touch-scroll.scss)
+[**touch-scroll**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_touch-scroll.scss)
 
 * touch-scroll - applying devices's momentum scrolling for blocks that have scrolling overflow;
 
 -----
 
-[**transform**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_transform.scss)
+[**transform**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_transform.scss)
 
 * transform - alias for "transform";
 
 -----
 
-[**transition**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_transition.scss)
+[**transition**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_transition.scss)
 
 Contains aliases for "transition";
 * transition;
@@ -172,16 +190,75 @@ Contains aliases for "transition";
 
 -----
 
-[**translate**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_translate.scss),
-[**translate2d**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_translate2d.scss),
-[**translate-3d**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_translate-3d.scss)
+[**translate**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_translate.scss),
+[**translate2d**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_translate2d.scss),
+[**translate-3d**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_translate-3d.scss)
 
 There are aliases for "transform: translate";
 
 -----
 
-[**user-select**](https://github.com/RusinovAnton/scss-lib/blob/master/scss/util/mixins/_user-select.scss)
+[**user-select**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_user-select.scss)
 
 * user-select - applying styles for text selection;
+
+-----
+
+[**reset-filter**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-filter.scss)
+
+Resets IE's filter property:
+
+* reset-filter
+
+-----
+
+[**reset-text**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-text.scss)
+
+Resets text styles:
+
+* reset-text
+
+-----
+
+[**spacing**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_spacing.scss)
+
+Handy margin/padding mixins:
+
+* margin-h($margin)
+* margin-v($margin)
+* padding-h($padding)
+* padding-v($padding)
+
+-----
+
+[**sr-only**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_sr-only.scss)
+
+Mixin to make screen-readers-only blocks:
+
+* sr-only
+
+-----
+
+[**text-hide**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_text-hide.scss)
+
+Mixin that hides text:
+
+* text-hide
+
+-----
+
+[**triangle**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_triangle.scss)
+
+Set of mixins to make triangle with css border property:
+
+* triangle-base
+* triangle-top($width, $height, $color)
+* triangle-bottom($width, $height, $color)
+* triangle-left($width, $height, $color)
+* triangle-right($width, $height, $color)
+* triangle-top-left($size, $color)
+* triangle-top-right($size, $color)
+* triangle-bottom-left($size, $color)
+* triangle-bottom-right($size, $color)
 
 -----
