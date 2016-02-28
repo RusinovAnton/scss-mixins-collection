@@ -1,0 +1,7 @@
+@mixin reset-link {
+  text-decoration: none;
+  @include on-state {
+    text-decoration: none;
+    outline: none;
+  }
+}

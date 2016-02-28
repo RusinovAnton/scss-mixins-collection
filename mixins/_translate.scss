@@ -1,0 +1,9 @@
+@mixin translate($x, $y) {
+	@if not $y {
+		@include prefix (transform, translateX($x));
+	} @else if not $x {
+		@include prefix (transform, translateY($y));
+	} @else {
+		@include prefix (transform, translateX($x) translateY($y));
+	}
+}

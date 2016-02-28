@@ -1,0 +1,24 @@
+{
+  "name": "scss-mixins-collection",
+  "homepage": "https://github.com/RusinovAnton/scss-mixins-collection",
+  "authors": [
+    "Rusinov.Anton <rusinov.amgrade@gmail.com>"
+  ],
+  "description": "scss mixins collection",
+  "main": "mixins/__mixins.scss",
+  "moduleType": [],
+  "keywords": [
+    "scss",
+    "css",
+    "sass",
+    "mixins"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

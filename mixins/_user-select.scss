@@ -1,0 +1,3 @@
+@mixin user_select($val) {
+  @include prefix(user-select, $val);
+}

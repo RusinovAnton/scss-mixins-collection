@@ -1,0 +1,13 @@
+/*
+ * Mixin for making images with different aspect ratio to fit into fixed size container block
+ */
+
+@mixin responsive-image {
+  max-height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

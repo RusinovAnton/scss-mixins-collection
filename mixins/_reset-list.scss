@@ -1,0 +1,22 @@
+/*
+ * Mixin for reset ul, ol lists default styles
+ */
+
+@mixin reset-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-image: none;
+    list-style-type: none;
+  }
+}
+
+@mixin inline-list {
+    @include reset-list;
+    font-size: 0;
+    li {
+        display: inline-block;
+        vertical-align: top;
+    }
+}

@@ -1,0 +1,7 @@
+/*
+ *  @depend prefix
+ */
+
+@mixin translate3d($x, $y, $z) {
+  @include prefix(transform, translate3d($x, $y, $z));
+}

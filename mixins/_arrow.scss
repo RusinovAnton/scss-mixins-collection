@@ -1,0 +1,59 @@
+@mixin arrow-top($size, $width, $color) {
+  @include rotate(45deg);
+  @include square($size);
+  border-style: solid;
+  border-color: $color;
+  border-width: $width 0 0 $width;
+}
+
+@mixin arrow-bottom($size, $width, $color) {
+  @include rotate(45deg);
+  @include square($size);
+  border-style: solid;
+  border-color: $color;
+  border-width: 0 $width $width 0;
+}
+
+@mixin arrow-left($size, $width, $color) {
+  @include rotate(45deg);
+  @include square($size);
+  border-style: solid;
+  border-color: $color;
+  border-width: 0 0 $width $width;
+}
+
+@mixin arrow-right($size, $width, $color) {
+  @include rotate(45deg);
+  @include square($size);
+  border-style: solid;
+  border-color: $color;
+  border-width: $width $width 0 0;
+}
+
+@mixin arrow-top-left($size, $width, $color) {
+  @include square($size);
+  border-style: solid;
+  border-color: $color;
+  border-width: $width 0 0 $width;
+}
+
+@mixin arrow-top-right($size, $width, $color) {
+  @include square($size);
+  border-style: solid;
+  border-color: $color;
+  border-width: $width $width 0 0;
+}
+
+@mixin arrow-bottom-left($size, $width, $color) {
+  @include square($size);
+  border-style: solid;
+  border-color: $color;
+  border-width: 0 0 $width $width;
+}
+
+@mixin arrow-bottom-right($size, $width, $color) {
+  @include square($size);
+  border-style: solid;
+  border-color: $color;
+  border-width: 0 $width $width 0;
+}

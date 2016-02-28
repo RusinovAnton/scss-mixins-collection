@@ -1,0 +1,59 @@
+@mixin pseudo-block($position) {
+	content: '';
+	display: block;
+	position: $position;
+}
+
+@mixin pseudo-absolute {
+    @include pseudo-block(absolute);
+}
+
+@mixin pseudo-inline {
+	content: '';
+	display: inline-block;
+}
+
+@mixin before-block {
+    &:before {
+        content: '';
+        display: block;
+        @content;
+    }
+}
+
+@mixin before-inline {
+    &:before {
+        @include pseudo-inline;
+        @content;
+    }
+}
+
+@mixin before-absolute {
+    &:before {
+        @include pseudo-absolute;
+        @content;
+    }
+}
+
+@mixin after-block {
+    &:after {
+        content: '';
+        display: block;
+        @content;
+    }
+}
+
+@mixin after-inline {
+    &:after {
+        @include pseudo-inline;
+        @content;
+    }
+}
+
+@mixin after-absolute {
+    &:after {
+        @include pseudo-absolute;
+        @content;
+    }
+}
+

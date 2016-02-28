@@ -1,0 +1,12 @@
+
+@mixin prefix($property, $value...) {
+    @if $vendor-prefixes-enabled {
+        -webkit-#{$property}: $value;
+        -moz-#{$property}: $value;
+        -ms-#{$property}: $value;
+        -o-#{$property}: $value;
+        #{$property}: $value;
+    } @else {
+        #{$property}: $value;
+    }
+}
