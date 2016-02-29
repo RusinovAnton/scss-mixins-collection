@@ -6,12 +6,12 @@
 
 @mixin centered-h {
   left: 50%;
-  @include translate(-50%, null);
+  @include translate-h(-50%);
 }
 
 @mixin centered-v {
   top: 50%;
-  @include translate(null, -50%);
+  @include translate-v(-50%);
 }
 
 @mixin block-center {
