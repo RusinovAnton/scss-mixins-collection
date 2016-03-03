@@ -1,22 +1,24 @@
 @mixin fullwidth {
-  @media (min-width: 768px) {
-    padding-right: 200%;
-    padding-left: 200%;
-    margin-right: -200%;
-    margin-left: -200%;
-  }
+    @media (min-width: 768px) {
+        @include padding-h(200%);
+        @include margin-h(-200%);
+    }
+}
+
+@mixin full-width {
+    @include fullwidth;
 }
 
 @mixin fullleft {
-  @media (min-width: 768px) {
-    padding-left: 200%;
-    margin-left: -200%;
-  }
+    @media (min-width: 768px) {
+        padding-left: 200%;
+        margin-left: -200%;
+    }
 }
 
 @mixin fullright {
-  @media (min-width: 768px) {
-    padding-right: 200%;
-    margin-right: -200%;
-  }
+    @media (min-width: 768px) {
+        padding-right: 200%;
+        margin-right: -200%;
+    }
 }
