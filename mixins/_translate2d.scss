@@ -1,7 +1,3 @@
-@mixin translate($x, $y) {
-    @include transform(translateX($x) translateY($y));
-}
-
 @mixin translate-h($x) {
     @include transform(translateX($x));
 }

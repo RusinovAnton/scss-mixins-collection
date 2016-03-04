@@ -19,6 +19,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', endColorStr='#{$endColor}', gradientType='1');
 }
 
+/** TODO: add description for startPos, endPos **/
 @mixin gradient-radial($startColor, $startPos, $endColor, $endPos) {
   background: -moz-radial-gradient(center, ellipse cover, $startColor $startPos, $endColor $endPos);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop($startPos, $startColor), color-stop($endPos, $endColor));
