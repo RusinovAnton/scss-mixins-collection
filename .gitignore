@@ -1,3 +1,4 @@
 .idea
 .sass-cache
 test/css
+node_modules/

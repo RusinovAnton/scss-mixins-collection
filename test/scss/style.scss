@@ -1,0 +1,274 @@
+@import '../../mixins/__mixins.scss';
+
+/**
+ *  Test variables
+ **/
+
+$font-family-base: 'Open Sans';
+$margin: 1rem;
+$padding: $margin;
+$size: 10px;
+$width: $size;
+$height: $size;
+$color: #fc0;
+$angle: 45deg;
+
+.prefix {
+  @include prefix(transform, none);
+}
+
+.transform {
+  @include transform;
+}
+
+.gradient-v {
+  @include gradient-v(#fc0, #0cf);
+}
+
+.gradient-h {
+  @include gradient-h(#fc0, #c0f);
+}
+
+.gradient-radial {
+  @include gradient-radial(#c0f, 0, #c0f, 10px);
+}
+
+.centered {
+  @include centered;
+}
+
+.centered-h {
+  @include centered-h;
+}
+
+.centered-v {
+  @include centered-v;
+}
+
+.block-center {
+  @include block-center;
+}
+
+.center-block {
+  @include center-block;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.device-z-index-fix {
+  @include device-z-index-fix;
+}
+
+.ellipsis {
+  @include ellipsis;
+}
+
+.fullwidth {
+  @include fullwidth;
+}
+
+.hack-bootstrap {
+  @include hack-bootstrap(0);
+}
+
+.placeholder {
+  @include placeholder;
+}
+
+.pseudo-block {
+  @include pseudo-block(absolute);
+}
+
+.pseudo-absolute {
+  @include pseudo-absolute;
+}
+
+.pseudo-inline {
+  @include pseudo-inline;
+}
+
+.before-block {
+  @include before-block;
+}
+
+.before-inline {
+  @include before-inline;
+}
+
+.before-absolute {
+  @include before-absolute;
+}
+
+.after-block {
+  @include after-block;
+}
+
+.after-inline {
+  @include after-inline;
+}
+
+.after-absolute {
+  @include after-absolute;
+}
+
+.inline-list {
+  @include inline-list;
+}
+
+.on-state {
+  @include on-state;
+}
+
+.reset-filter {
+  @include reset-filter;
+}
+
+.reset-list {
+  @include reset-list;
+}
+
+.reset-link {
+  @include reset-link;
+}
+
+.reset-text {
+  @include reset-text;
+}
+
+.responsive-image {
+  @include responsive-image;
+}
+
+.rotate {
+  @include rotate($angle);
+}
+
+.row {
+  @include row;
+}
+
+.scale {
+  @include scale(2);
+}
+
+.margin-h {
+  @include margin-h($margin);
+}
+
+.margin-v {
+  @include margin-v($margin);
+}
+
+.padding-h {
+  @include padding-h($padding);
+}
+
+.padding-v {
+  @include padding-v($padding);
+}
+
+.skew {
+  @include skew($angle, $angle);
+}
+
+.square {
+  @include square(0);
+}
+
+.sr-only {
+  @include sr-only;
+}
+
+.touch-scroll {
+  @include touch-scroll;
+}
+
+.transition {
+  @include transition;
+}
+
+.translate {
+  @include translate(10, null);
+}
+
+.translate-h {
+  @include translate-h(10);
+}
+
+.translate-v {
+  @include translate-v(10);
+}
+
+.translate3d {
+  @include translate3d(0, 0, 0);
+}
+
+.triangle-top {
+  @include triangle-top($width, $height, $color);
+}
+
+.triangle-bottom {
+  @include triangle-bottom($width, $height, $color);
+}
+
+.triangle-left {
+  @include triangle-left($width, $height, $color);
+}
+
+.triangle-right {
+  @include triangle-right($width, $height, $color);
+}
+
+.triangle-top-left {
+  @include triangle-top-left($size, $color);
+}
+
+.triangle-top-right {
+  @include triangle-top-right($size, $color);
+}
+
+.triangle-bottom-left {
+  @include triangle-bottom-left($size, $color);
+}
+
+.triangle-bottom-right {
+  @include triangle-bottom-right($size, $color);
+}
+
+.user-select {
+  @include user-select;
+}
+
+.arrow-top {
+  @include arrow-top($size, $width, $color);
+}
+
+.arrow-bottom {
+  @include arrow-bottom($size, $width, $color);
+}
+
+.arrow-left {
+  @include arrow-left($size, $width, $color);
+}
+
+.arrow-right {
+  @include arrow-right($size, $width, $color);
+}
+
+.arrow-top-left {
+  @include arrow-top-left($size, $width, $color);
+}
+
+.arrow-top-right {
+  @include arrow-top-right($size, $width, $color);
+}
+
+.arrow-bottom-left {
+  @include arrow-bottom-left($size, $width, $color);
+}
+
+.arrow-bottom-right {
+  @include arrow-bottom-right($size, $width, $color);
+}
