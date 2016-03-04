@@ -1,0 +1,36 @@
+{
+  "name": "scss-mixins-collection",
+  "version": "0.1.0",
+  "description": "Collection of the handy scss mixins",
+  "main": "./mixins/__mixins.scss",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusinovAnton/scss-mixins-collection.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "styling",
+    "mixins",
+    "utility",
+    "css3"
+  ],
+  "author": "Rusinov Anton",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.2.0",
+    "gutil": "*"
+  }
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RusinovAnton/scss-mixins-collection/issues"
+  },
+  "homepage": "https://github.com/RusinovAnton/scss-mixins-collection#readme"
+}
