@@ -1,4 +1,4 @@
 @mixin row {
-    margin-left: -15px;
-    margin-right: -15px;
+    @include clearfix;
+    @include margin-h(-15px);
 }

@@ -1,9 +1,16 @@
 @mixin translate($x, $y) {
-	@if not $y {
-		@include prefix (transform, translateX($x));
-	} @else if not $x {
-		@include prefix (transform, translateY($y));
-	} @else {
-		@include prefix (transform, translateX($x) translateY($y));
-	}
+    @include transform(translateX($x) translateY($y));
+}
+
+@mixin translate-h($x) {
+    @include transform(translateX($x));
+}
+
+@mixin translate-v($y) {
+    @include transform(translateY($y));
+}
+
+
+@mixin translate3d($x, $y, $z) {
+  @include transform(translate3d($x, $y, $z));
 }

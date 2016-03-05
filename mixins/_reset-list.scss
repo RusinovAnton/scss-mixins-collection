@@ -3,13 +3,15 @@
  */
 
 @mixin reset-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  li {
-    list-style-image: none;
-    list-style-type: none;
-  }
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+        list-style-image: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 @mixin inline-list {

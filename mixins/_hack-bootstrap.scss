@@ -1,10 +1,8 @@
 @mixin hack-bootstrap($padding) {
     .row {
-        margin-left: -$padding;
-        margin-right: -$padding;
+        @include margin-h(-$padding);
     }
     [class*='col-'] {
-        padding-left: $padding;
-        padding-right: $padding;
+        @include padding-h($padding);
     }
 }
