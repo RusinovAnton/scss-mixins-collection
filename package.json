@@ -23,14 +23,13 @@
     "css3"
   ],
   "author": "Rusinov Anton",
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-sass": "^2.2.0",
-    "gutil": "*"
-  }
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RusinovAnton/scss-mixins-collection/issues"
   },
-  "homepage": "https://github.com/RusinovAnton/scss-mixins-collection#readme"
+  "homepage": "https://github.com/RusinovAnton/scss-mixins-collection#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
 }
