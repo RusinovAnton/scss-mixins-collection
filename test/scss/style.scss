@@ -1,4 +1,4 @@
-@import '../../mixins/__mixins.scss';
+@import '../test-package/node_modules/scss-mixins-collection/mixins/__mixins.scss';
 
 /**
  *  Test variables
@@ -30,7 +30,7 @@ $angle: 45deg;
 }
 
 .gradient-radial {
-  @include gradient-radial(#c0f, 0, #c0f, 10px);
+  @include gradient-radial(#c0f, 0%, #c0f, 10%);
 }
 
 .centered {
@@ -190,15 +190,15 @@ $angle: 45deg;
 }
 
 .translate {
-  @include translate(10, null);
+  @include translate($size, $size);
 }
 
 .translate-h {
-  @include translate-h(10);
+  @include translate-h($size);
 }
 
 .translate-v {
-  @include translate-v(10);
+  @include translate-v($size);
 }
 
 .translate3d {
