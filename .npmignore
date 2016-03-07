@@ -1,0 +1,10 @@
+node_modules/
+bower_components/
+test/
+
+bower.json
+gulpfile.js
+
+.gitignore
+.editorconfig
+.idea

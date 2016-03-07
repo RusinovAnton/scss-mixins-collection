@@ -4,9 +4,9 @@ Collection of the usefull scss mixins.
 
 ## INSTALLIATION
 
-* You can install it via bower:
+* You can install it via npm:
 ```css
-bower install --save scss-mixins-collection
+npm install --save-dev scss-mixins-collection
 ```
 
 * Then just @import mixins/__mixins.scss file into your scss
