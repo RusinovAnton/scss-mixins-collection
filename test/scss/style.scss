@@ -1,4 +1,4 @@
-@import '../test-package/node_modules/scss-mixins-collection/mixins/__mixins.scss';
+@import '../../mixins/__mixins.scss';
 
 /**
  *  Test variables
@@ -64,6 +64,17 @@ $angle: 45deg;
 .ellipsis {
   @include ellipsis;
 }
+
+/* Single property */
+.fluid-type {
+    @include fluid-type(font-size, 320px, 1366px, 14px, 18px);
+}
+
+/* Multiple properties with same values */
+.fluid-type-multi {
+    @include fluid-type(padding-bottom padding-top, 20em, 70em, 2em, 4em);
+}
+
 
 .fullwidth {
   @include fullwidth;
