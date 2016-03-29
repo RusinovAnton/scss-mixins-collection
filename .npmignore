@@ -8,3 +8,4 @@ gulpfile.js
 .gitignore
 .editorconfig
 .idea
+npm-debug.log
