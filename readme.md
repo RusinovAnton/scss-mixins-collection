@@ -67,6 +67,16 @@ Fix for z-index [problem](http://stackoverflow.com/questions/26408978/android-br
 
 -----
 
+[**fluid-type**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fullwidth.scss)
+
+PRECISE CONTROL OVER RESPONSIVE TYPOGRAPHY FOR SASS  
+Indrek Paas @indrekpaas  
+Inspired by Mike Riethmuller's Precise control over responsive typography  
+http://madebymike.com.au/writing/precise-control-responsive-typography/  
+* fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value)  
+
+-----
+
 [**fullwidth**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fullwidth.scss)
 
 This mixins use hack for making fullwidth blocks out of container:
