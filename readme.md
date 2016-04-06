@@ -14,8 +14,14 @@ npm install --save-dev scss-mixins-collection
 * PROFIT
 
 ## WHATS INSIDE
-
-[**arrow**]([**block-centering**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/arrow.scss))
+  
+[**any-button](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_any-button.scss))  
+  
+Content mixin that apply style for any button.  
+  
+-----  
+  
+[**arrow**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_arrow.scss)
 
 Mixins to make arrows with border:
 
