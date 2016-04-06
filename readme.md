@@ -15,7 +15,7 @@ npm install --save-dev scss-mixins-collection
 
 ## WHATS INSIDE
   
-[**any-button](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_any-button.scss))  
+[**any-button**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_any-button.scss)  
   
 Content mixin that apply style for any button.  
   
