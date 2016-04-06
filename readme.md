@@ -97,7 +97,8 @@ This mixins use hack for making fullwidth blocks out of container:
 Applying custom paddings for bootstrap columns along with row's margin changes:
 
 * hack-bootstrap($padding)
-
+* bs-gutter($gutter-width) - alias for hack-bootstrap;
+  
 -----
 
 [**placeholder**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_placeholder.scss)
