@@ -1,8 +1,9 @@
-@mixin inline-list {
+@mixin row-inline {
     font-size: 0;
-    > li {
+    [class*='col-'] {
         display: inline-block;
         vertical-align: top;
+        float: none;
         font-size: 1rem;
     }
 }

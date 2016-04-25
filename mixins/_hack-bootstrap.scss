@@ -6,7 +6,3 @@
         @include padding-h($gutter-width);
     }
 }
-
-@mixin bs-gutter($gutter-width) {
-    @include hack-bootstrap($gutter-width);
-}

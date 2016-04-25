@@ -1,3 +1,7 @@
 @mixin user_select($val: none) {
   @include prefix(user-select, $val);
 }
+
+@mixin user-select($val: none) {
+    @include prefix(user-select, $val);
+}
