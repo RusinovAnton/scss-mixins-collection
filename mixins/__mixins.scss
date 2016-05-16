@@ -1,5 +1,5 @@
 // Set vendor prefixes adding
-$vendor-prefixes-enabled: true;
+$vendor-prefixes-enabled: true !default;
 
 @import "prefix";
 @import "transform";
