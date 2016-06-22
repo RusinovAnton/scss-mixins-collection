@@ -164,6 +164,10 @@ $angle: 45deg;
   @include scale(2);
 }
 
+.size {
+    @include size(20px, 30px);
+}
+
 .margin-h {
   @include margin-h($margin);
 }

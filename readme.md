@@ -170,6 +170,13 @@ Applying styles for input's placeholders:
 
 * scale - alias for "transform: scale";
 
+
+-----
+
+[**size**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_size.scss)
+
+* size($width, $height) - applies width, height;
+
 -----
 
 [**skew**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_skew.scss)
