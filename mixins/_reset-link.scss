@@ -1,7 +1,9 @@
 @mixin reset-link {
+  color: inherit;
   text-decoration: none;
   @include on-state {
     text-decoration: none;
+    color: inherit;
     outline: none;
   }
 }
