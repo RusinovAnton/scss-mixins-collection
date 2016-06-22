@@ -1,0 +1,27 @@
+{
+  "name": "scss-mixins-collection",
+  "description": "Collection of the handy scss mixins",
+  "main": "./mixins/__mixins.scss",
+  "authors": [
+    "Rusinov Anton"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "styling",
+    "mixins",
+    "utility",
+    "css3"
+  ],
+  "homepage": "https://github.com/RusinovAnton/scss-mixins-collection",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

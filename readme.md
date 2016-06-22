@@ -8,7 +8,11 @@ Collection of the usefull scss mixins.
 ```css
 npm install --save-dev scss-mixins-collection
 ```
-
+or via Bower if you prefer so: 
+```
+bower install scss-mixins-collection
+```
+  
 * Then just @import mixins/__mixins.scss file into your scss
 * ???
 * PROFIT
