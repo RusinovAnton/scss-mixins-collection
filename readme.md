@@ -2,7 +2,7 @@
 
 Collection of the usefull scss mixins.
 
-## INSTALLIATION
+## INSTALLATION
 
 * You can install it via npm:
 ```css
