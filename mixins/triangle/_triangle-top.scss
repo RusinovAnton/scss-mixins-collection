@@ -1,0 +1,5 @@
+@mixin triangle-top($width, $height, $color) {
+    @include triangle-base;
+    border-width: 0 $width/2 $height $width/2;
+    border-color: $transparent $transparent $color $transparent;
+}

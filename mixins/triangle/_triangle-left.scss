@@ -1,0 +1,5 @@
+@mixin triangle-left($width, $height, $color) {
+    @include triangle-base;
+    border-width: $height/2 $width $height/2 0;
+    border-color: $transparent $color $transparent $transparent;
+}

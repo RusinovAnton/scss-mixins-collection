@@ -1,0 +1,20 @@
+/*
+  * Tips:
+  * Try border-style: inset if Firefox renders a strange gray border
+  * Add -webkit-transform:rotate(360deg) for a better anti-aliasing in webkit browser
+*/
+$transparent: rgba(255, 255, 255, 0);
+
+@mixin triangle-base {
+    @include square(0);
+    border-style: solid;
+}
+
+@import "triangle-top";
+@import "triangle-bottom";
+@import "triangle-left";
+@import "triangle-right";
+@import "triangle-top-left";
+@import "triangle-top-right";
+@import "triangle-bottom-left";
+@import "triangle-bottom-right";

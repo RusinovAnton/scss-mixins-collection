@@ -66,6 +66,7 @@ Applying custom paddings for bootstrap columns along with row's margin changes:
 * ellipsis
 * ellipsis-multiline($font-size, $line-height, $lines-to-show)
 * ellipsis-multiline-simple($height, $lines-to-show)
+* ellipsis-lines($lines-to-show)
 
 -----
 
@@ -194,7 +195,7 @@ Handy margin/padding mixins:
 
 -----
 
-[**triangle**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_triangle.scss)
+[**triangle**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/triangle/__triangle.scss)
 
 Set of mixins to make triangle with css border property:
 
@@ -208,3 +209,7 @@ Set of mixins to make triangle with css border property:
 * triangle-bottom-right($size, $color)
 
 -----
+
+## LICENSE
+
+## CHANGELOG

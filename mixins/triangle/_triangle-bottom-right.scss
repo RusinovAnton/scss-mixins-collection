@@ -1,0 +1,5 @@
+@mixin triangle-bottom-right($size, $color) {
+    @include triangle-base;
+    border-width: 0 0 $size $size;
+    border-color: $transparent $transparent $color $transparent;
+}
