@@ -7,10 +7,6 @@ gulp.task('css', function(){
         .pipe(gulp.dest('./test/css'));
 });
 
-gulp.task('test', ['css'], function(){
-    console.log('Pretty much it');
-});
+gulp.task('test', ['css']);
 
-gulp.task('default', ['test'], function(){
-
-});
+gulp.task('default', ['css']);

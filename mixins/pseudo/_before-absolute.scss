@@ -1,0 +1,6 @@
+@mixin before-absolute {
+    &::before {
+        @include pseudo-block(absolute);
+        @content;
+    }
+}

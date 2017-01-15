@@ -1,8 +1,0 @@
-@mixin hack-bootstrap($gutter-width) {
-    .row {
-        @include margin-h(-$gutter-width);
-    }
-    [class*='col-'] {
-        @include padding-h($gutter-width);
-    }
-}

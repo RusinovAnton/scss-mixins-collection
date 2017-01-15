@@ -1,8 +1,0 @@
-
-@mixin transition($transition...) {
-	@include prefix(transition, $transition);
-}
-
-@mixin transition-all ($duration) {
-  @include prefix(transition, all $duration);
-}

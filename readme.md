@@ -40,30 +40,9 @@ Mixins to make arrows with border:
 
 -----
 
-[**background-gradient**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_background-gradient.scss)
-
-Mixin that help you to make crossbrowser background gradients:
-
-* gradient-v($startColor, $endColor)
-* gradient-h($startColor, $endColor)
-* gradient-radial($startColor, $startPos, $endColor, $endPos)
-
-[**block-centering**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_block-centering.scss)
-
-* centered, centered-h, centered-v - centering absolute positioned block relative to his parent (-h - only horizontal, -v - only vertical);
-* block-center - centering block with "margin: auto";
-
------
-
 [**clearfix**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_clearfix.scss)
 
 * clearfix - bootstrap's clearfix hack;
-
------
-
-[**device-z-index-fix**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_device-z-index-fix.scss)
-
-Fix for z-index [problem](http://stackoverflow.com/questions/26408978/android-browsers-position-fixed-and-z-index-issue) for absolute/fixed positioned blocks on Android browser;
 
 -----
 
@@ -71,10 +50,8 @@ Fix for z-index [problem](http://stackoverflow.com/questions/26408978/android-br
 
   Contains mixins to make block that cut text adding ellipsis:
 * ellipsis
-* multiline-ellipsis($font-size, $line-height, $lines-to-show)
-* multiline-ellipsis-simple($height, $lines-to-show)
-* ellipsis-lines($lines-to-show)
-
+* ellipsis-multiline($font-size, $line-height, $lines-to-show)
+* ellipsis-multiline-simple($height, $lines-to-show)
 -----
 
 [**fluid-type**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fullwidth.scss)
@@ -87,21 +64,11 @@ http://madebymike.com.au/writing/precise-control-responsive-typography/
 
 -----
 
-[**fullwidth**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fullwidth.scss)
-
-This mixins use hack for making fullwidth blocks out of container:
-* full-width
-* full-left
-* full-right
-
------
-
-[**hack-bootstrap**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_hack-bootstrap.scss)
+[**bs-gutter**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_hack-bootstrap.scss)
 
 Applying custom paddings for bootstrap columns along with row's margin changes:
 
-* hack-bootstrap($padding)
-* bs-gutter($gutter-width) - alias for hack-bootstrap;
+* bs-gutter($gutter-width)
   
 -----
 
@@ -128,18 +95,6 @@ Applying styles for input's placeholders:
 
 -----
 
-[**on-state**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_on-state.scss)
-
-* on-state - applying styles on :hover, :focus, :active;
-
------
-
-[**prefix**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_prefix.scss)
-
-* prefix - adding vendor prefixes;
-
------
-
 [**reset-list**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-list.scss)
 
 * reset-list - reset for default ol/ul styles;
@@ -152,28 +107,15 @@ Applying styles for input's placeholders:
 
 -----
 
-[**responsive-image**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_responsive-image.scss)
+[**fit-image**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fit-image.scss)
 
-* responsive-image - fit image with various aspect ratio into fixed size wrapper;
-
------
-
-[**rotate**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_rotate.scss)
-
-* rotate - alias for 'transform: rotate';
+* fit-image - fit image with various aspect ratio into fixed size wrapper;
 
 -----
 
 [**row**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_row.scss)
 
-* row - adding clearfix + negative margin;
-
------
-
-[**scale**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_scale.scss)
-
-* scale - alias for "transform: scale";
-
+* row($margin) - adding clearfix + negative margin;
 
 -----
 
@@ -183,60 +125,9 @@ Applying styles for input's placeholders:
 
 -----
 
-[**skew**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_skew.scss)
-
-Contains aliases for "transform: skew":
-* skew($x, $y)
-* skewX($x)
-* skewY($y)
-
------
-
 [**square**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_square.scss)
 
 * square - making block with same width, height;
-
------
-
-[**touch-scroll**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_touch-scroll.scss)
-
-* touch-scroll - applying devices's momentum scrolling for blocks that have scrolling overflow;
-
------
-
-[**transform**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_transform.scss)
-
-* transform - alias for "transform";
-
------
-
-[**transition**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_transition.scss)
-
-Contains aliases for "transition";
-* transition;
-* transition-all;
-
------
-
-[**translate**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_translate.scss),
-[**translate2d**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_translate2d.scss),
-[**translate-3d**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_translate-3d.scss)
-
-There are aliases for "transform: translate";
-
------
-
-[**user-select**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_user-select.scss)
-
-* user-select - applying styles for text selection;
-
------
-
-[**reset-filter**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-filter.scss)
-
-Resets IE's filter property:
-
-* reset-filter
 
 -----
 

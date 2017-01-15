@@ -1,5 +1,0 @@
-@mixin on-state {
-  &:hover, &:focus, &:active {
-    @content;
-  }
-}

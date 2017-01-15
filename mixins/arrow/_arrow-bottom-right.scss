@@ -1,0 +1,6 @@
+@mixin arrow-bottom-right($size, $width, $color: currentColor) {
+    border-style: solid;
+    border-color: $color;
+    border-width: 0 $width $width 0;
+    @include square($size);
+}

@@ -1,4 +1,4 @@
-@mixin row {
+@mixin row($gutter-width: 30px) {
     @include clearfix;
-    @include margin-h(-15px);
+    @include margin-h(-$gutter-width / 2);
 }

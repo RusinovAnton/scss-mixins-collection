@@ -1,0 +1,7 @@
+@mixin arrow-top($size, $width, $color: currentColor) {
+    transform: rotate(45deg);
+    border-style: solid;
+    border-color: $color;
+    border-width: $width 0 0 $width;
+    @include square($size);
+}
