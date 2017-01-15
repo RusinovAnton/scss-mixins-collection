@@ -1,6 +1,6 @@
 {
   "name": "scss-mixins-collection",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Collection of the handy scss mixins",
   "main": "./_index.scss",
   "directories": {

@@ -16,7 +16,6 @@
     "css3"
   ],
   "homepage": "https://github.com/RusinovAnton/scss-mixins-collection",
-  "moduleType": [],
   "ignore": [
     "**/.*",
     "node_modules",
