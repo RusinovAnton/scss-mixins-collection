@@ -13,7 +13,7 @@ or via Bower if you prefer so:
 bower install scss-mixins-collection
 ```
   
-* Then just `@import 'node_modules/scss-mixins-collection/_index.scss'` file into your scss
+* Then just `@import '[node_modules || bower_components]/scss-mixins-collection/_index.scss'` file into your scss
 * ???
 * PROFIT
 
@@ -25,7 +25,7 @@ Content mixin that apply style for any button.
   
 -----  
   
-[**arrow**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_arrow.scss)
+[**arrow**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/arrow/__arrow.scss)
 
 Mixins to make arrows with border:
 
@@ -40,18 +40,39 @@ Mixins to make arrows with border:
 
 -----
 
+[**block-center**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_block-center.scss)
+
+* block-center - centers block with margin: auto;
+
+-----
+
+[**bs-gutter**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_bs-gutter.scss)
+
+Applying custom paddings for bootstrap columns along with row's margin changes:
+
+* bs-gutter($gutter-width)  
+
+-----
+
 [**clearfix**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_clearfix.scss)
 
 * clearfix - bootstrap's clearfix hack;
 
 -----
 
-[**ellipsis**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_ellipsis.scss)
+[**ellipsis**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/ellipsis/__ellipsis.scss)
 
   Contains mixins to make block that cut text adding ellipsis:
 * ellipsis
 * ellipsis-multiline($font-size, $line-height, $lines-to-show)
 * ellipsis-multiline-simple($height, $lines-to-show)
+
+-----
+
+[**fit-image**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fit-image.scss)
+
+* fit-image - fit image with various aspect ratio into fixed size wrapper;
+
 -----
 
 [**fluid-type**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fullwidth.scss)
@@ -64,12 +85,25 @@ http://madebymike.com.au/writing/precise-control-responsive-typography/
 
 -----
 
-[**bs-gutter**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_hack-bootstrap.scss)
+[**if-childrens**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_if-childrens.scss)
 
-Applying custom paddings for bootstrap columns along with row's margin changes:
+Applying styles to an element or to element and siblings if provided  
+if there are given number of siblings:
 
-* bs-gutter($gutter-width)
-  
+* if-childrens($number-of-children, $sibling-selector)
+
+-----
+
+[**inline-list**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_inline-list.scss)
+
+* inline-list - styles for list that have `li { inline-block }`
+
+-----
+
+[**inline-list**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_inline-list.scss)
+
+* inline-list - apply this mixin for ol/ul to make li stack horizontally;
+
 -----
 
 [**placeholder**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_placeholder.scss)
@@ -89,12 +123,6 @@ Applying styles for input's placeholders:
 
 -----
 
-[**inline-list**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_inline-list.scss)
-
-* inline-list - apply this mixin for ol/ul to make li stack horizontally;
-
------
-
 [**reset-list**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-list.scss)
 
 * reset-list - reset for default ol/ul styles;
@@ -107,15 +135,21 @@ Applying styles for input's placeholders:
 
 -----
 
-[**fit-image**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fit-image.scss)
+[**reset-text**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-text.scss)
 
-* fit-image - fit image with various aspect ratio into fixed size wrapper;
+* reset-text - reset for default text styles;
 
 -----
 
 [**row**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_row.scss)
 
 * row($margin) - adding clearfix + negative margin;
+
+-----
+
+[**row-inline**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_row.scss)
+
+* row-inline($margin) - makes columns to have display inline-block
 
 -----
 
@@ -131,11 +165,9 @@ Applying styles for input's placeholders:
 
 -----
 
-[**reset-text**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_reset-text.scss)
+[**sr-only**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_sr-only.scss)
 
-Resets text styles:
-
-* reset-text
+* sr-only - makes block available for screen readers only
 
 -----
 
@@ -150,19 +182,15 @@ Handy margin/padding mixins:
 
 -----
 
-[**sr-only**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_sr-only.scss)
+[**take-space**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_take-space.scss)
 
-Mixin to make screen-readers-only blocks:
-
-* sr-only
+* take-space($margin) - Mixin for Absolute|Fixed block to fill parents' block 
 
 -----
 
 [**text-hide**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_text-hide.scss)
 
-Mixin that hides text:
-
-* text-hide
+* text-hide - Mixin that hides text
 
 -----
 

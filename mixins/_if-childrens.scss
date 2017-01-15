@@ -1,12 +1,12 @@
-/**
-  * Apply styles depending on element's siblings number
-  *
-  * @param [Integer] $n - number of sibling including element itself
-  * @param [String] $sibling - tag/class of the siblings to apply styles to
-  */
-@mixin if-childrens($n, $sibling) {
-    &:first-child:nth-last-child(#{$n}),
-    &:first-child:nth-last-child(#{$n}) ~ #{$sibling} {
-        @content;
+@mixin if-childrens($number-of-children, $sibling-selector: null) {
+    @if ($sibling-selector) {
+        &:first-child:nth-last-child(#{$number-of-children}),
+        &:first-child:nth-last-child(#{$number-of-children}) ~ #{$sibling-selector} {
+            @content;
+        }
+    } @else {
+        &:first-child:nth-last-child(#{$number-of-children}) {
+            @content
+        }
     }
 }
