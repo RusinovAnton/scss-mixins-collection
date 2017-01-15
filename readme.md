@@ -13,7 +13,7 @@ or via Bower if you prefer so:
 bower install scss-mixins-collection
 ```
   
-* Then just @import mixins/__mixins.scss file into your scss
+* Then just `@import 'node_modules/scss-mixins-collection/_index.scss'` file into your scss
 * ???
 * PROFIT
 
