@@ -1,0 +1,5 @@
+@mixin link-text {
+    color: inherit;
+    text-decoration: none;
+    @content;
+}

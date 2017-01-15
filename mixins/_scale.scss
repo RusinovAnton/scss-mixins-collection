@@ -1,3 +1,0 @@
-@mixin scale($ratio) {
-  @include prefix(transform, scale($ratio));
-}

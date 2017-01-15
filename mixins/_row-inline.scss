@@ -1,5 +1,8 @@
+// if you need your columns to be inline-block
 @mixin row-inline {
+    display: block;
     font-size: 0;
+
     [class*='col-'] {
         display: inline-block;
         vertical-align: top;

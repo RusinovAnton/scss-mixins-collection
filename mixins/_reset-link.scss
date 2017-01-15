@@ -1,7 +1,10 @@
 @mixin reset-link {
   color: inherit;
   text-decoration: none;
-  @include on-state {
+
+  &:hover,
+  &:focus,
+  &:active {
     text-decoration: none;
     color: inherit;
     outline: none;

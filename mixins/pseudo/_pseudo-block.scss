@@ -1,0 +1,5 @@
+@mixin pseudo-block($position: null) {
+    content: '';
+    display: block;
+    @if ($position) { position: $position; }
+}

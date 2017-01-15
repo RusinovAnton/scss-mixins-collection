@@ -1,7 +1,0 @@
-@mixin translate-h($x) {
-    @include transform(translateX($x));
-}
-
-@mixin translate-v($y) {
-    @include transform(translateY($y));
-}

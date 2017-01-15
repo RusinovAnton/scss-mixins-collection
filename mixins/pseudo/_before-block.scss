@@ -1,0 +1,6 @@
+@mixin before-block {
+    &::before {
+        @include pseudo-block;
+        @content;
+    }
+}

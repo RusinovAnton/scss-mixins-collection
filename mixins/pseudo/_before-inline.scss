@@ -1,0 +1,6 @@
+@mixin before-inline {
+    &::before {
+        @include pseudo-inline;
+        @content;
+    }
+}

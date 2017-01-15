@@ -12,7 +12,9 @@
     02.10.2015 Add support for multiple properties
 
     ========================================================================  */
-
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
 
 @mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
     & {
@@ -33,12 +35,3 @@
         }
     }
 }
-
-
-@function strip-unit($value) {
-    @return $value / ($value * 0 + 1);
-}
-
-
-
-

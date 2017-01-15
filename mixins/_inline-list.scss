@@ -1,5 +1,7 @@
 @mixin inline-list {
+    @include reset-list();
     font-size: 0;
+
     > li {
         display: inline-block;
         vertical-align: top;
