@@ -1,13 +1,13 @@
 {
   "name": "scss-mixins-collection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of the handy scss mixins",
   "main": "./_index.scss",
   "directories": {
     "test": "test"
   },
   "scripts": {
-      "prepublish": "npm test",
+    "prepublish": "npm test",
     "test": "gulp test"
   },
   "repository": {
