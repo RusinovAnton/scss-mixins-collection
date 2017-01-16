@@ -1,6 +1,6 @@
 # SCSS-MIXINS-COLLECTION
 
-Collection of the usefull scss mixins.
+Collection of the handy scss mixins.
 
 ## INSTALLATION
 
@@ -19,7 +19,7 @@ bower install scss-mixins-collection
 
 ## LICENSE
 
-LICENSE MIT
+LICENSE MIT  
 See [LICENSE.md](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/LICENSE.md)
 
 -----
