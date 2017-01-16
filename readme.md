@@ -17,6 +17,19 @@ bower install scss-mixins-collection
 * ???
 * PROFIT
 
+## LICENSE
+
+LICENSE MIT
+See [LICENSE.md](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/LICENSE.md)
+
+-----
+
+## CHANGELOG
+
+See [CHANGELOG.md](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/CHANGELOG.md)
+
+-----
+
 ## WHATS INSIDE
   
 [**any-button**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_any-button.scss)  
@@ -209,7 +222,3 @@ Set of mixins to make triangle with css border property:
 * triangle-bottom-right($size, $color)
 
 -----
-
-## LICENSE
-
-## CHANGELOG
