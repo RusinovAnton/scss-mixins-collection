@@ -1,4 +1,5 @@
 # SCSS-MIXINS-COLLECTION
+[![Build Status](https://travis-ci.org/RusinovAnton/scss-mixins-collection.svg?branch=master)](https://travis-ci.org/RusinovAnton/scss-mixins-collection)  
 
 Collection of the handy scss mixins.
 
