@@ -84,6 +84,12 @@ Applying custom paddings for bootstrap columns along with row's margin changes:
 
 -----
 
+[**fill-parent**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fit-image.scss)
+
+* fill-parent($position: absolute, $zindex: 0) - fill given element in the parents block;
+
+-----
+
 [**fit-image**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_fit-image.scss)
 
 * fit-image - fit image with various aspect ratio into fixed size wrapper;
