@@ -176,7 +176,7 @@ Applying styles for input's placeholders:
 
 [**size**](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/mixins/_size.scss)
 
-* size($width, $height) - applies width, height;
+* size($width, $height: $width) - applies width, height;
 
 -----
 
