@@ -119,6 +119,7 @@ $lines-to-show: 30;
 
 .size {
     @include size(20px, 30px);
+    @include size(20px);
 }
 
 .margin-h {
