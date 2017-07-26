@@ -1,7 +1,8 @@
 # SCSS-MIXINS-COLLECTION
+[![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/scss-mixins-collection)
 [![Build Status](https://travis-ci.org/RusinovAnton/scss-mixins-collection.svg?branch=master)](https://travis-ci.org/RusinovAnton/scss-mixins-collection)  
 
-Collection of the handy scss mixins.
+Collection of handy scss mixins.
 
 ## INSTALLATION
 
