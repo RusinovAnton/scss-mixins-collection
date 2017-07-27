@@ -1,17 +1,14 @@
-/*! ========================================================================
+//PRECISE CONTROL OVER RESPONSIVE TYPOGRAPHY FOR SASS
+//---------------------------------------------------
+//Indrek Paas @indrekpaas
+//
+//Inspired by Mike Riethmuller's Precise control over responsive typography
+//http://madebymike.com.au/writing/precise-control-responsive-typography/
+//
+//`strip-unit()` function by Hugo Giraudel
+//
+//02.10.2015 Add support for multiple properties
 
-    PRECISE CONTROL OVER RESPONSIVE TYPOGRAPHY FOR SASS
-    ---------------------------------------------------
-    Indrek Paas @indrekpaas
-
-    Inspired by Mike Riethmuller's Precise control over responsive typography
-    http://madebymike.com.au/writing/precise-control-responsive-typography/
-
-    `strip-unit()` function by Hugo Giraudel
-
-    02.10.2015 Add support for multiple properties
-
-    ========================================================================  */
 @function strip-unit($value) {
     @return $value / ($value * 0 + 1);
 }
