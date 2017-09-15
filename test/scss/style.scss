@@ -124,18 +124,22 @@ $lines-to-show: 30;
 
 .margin-h {
     @include margin-h($margin);
+    @include margin-h($margin, $margin + 10px);
 }
 
 .margin-v {
     @include margin-v($margin);
+    @include margin-v($margin, $margin + 10px);
 }
 
 .padding-h {
     @include padding-h($padding);
+    @include padding-h($padding, $padding + 10px);
 }
 
 .padding-v {
     @include padding-v($padding);
+    @include padding-v($padding, $padding + 10px);
 }
 
 .size {
