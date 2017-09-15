@@ -197,10 +197,10 @@ Applying styles for input's placeholders:
 
 Handy margin/padding mixins:
 
-* margin-h($margin)
-* margin-v($margin)
-* padding-h($padding)
-* padding-v($padding)
+* margin-h($margin-right, $margin-left: $margin-right)
+* margin-v($margin-top, $margin-bottom: $margin-top)
+* padding-h($padding-right, $padding-left: $padding-right)
+* padding-v($padding-top, $padding-bottom: $padding-top)
 
 -----
 
