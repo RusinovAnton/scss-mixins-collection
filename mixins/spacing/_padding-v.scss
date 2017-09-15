@@ -1,4 +1,4 @@
-@mixin padding-v($padding) {
-    padding-top: $padding;
-    padding-bottom: $padding;
+@mixin padding-v($padding-top, $padding-bottom: $padding-top) {
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
 }
