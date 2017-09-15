@@ -1,4 +1,4 @@
-@mixin margin-h($margin) {
-    margin-left: $margin;
-    margin-right: $margin;
+@mixin margin-h($margin-right, $margin-left: $margin-right) {
+    margin-left: $margin-left;
+    margin-right: $margin-right;
 }

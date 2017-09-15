@@ -1,4 +1,4 @@
-@mixin padding-h($padding) {
-    padding-left: $padding;
-    padding-right: $padding;
+@mixin padding-h($padding-right, $padding-left: $padding-right) {
+    padding-left: $padding-left;
+    padding-right: $padding-right;
 }
