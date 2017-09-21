@@ -28,7 +28,7 @@ See [LICENSE.md](https://github.com/RusinovAnton/scss-mixins-collection/blob/mas
 
 ## CHANGELOG
 
-See [CHANGELOG.md](https://github.com/RusinovAnton/scss-mixins-collection/blob/master/CHANGELOG.md)
+See [releases](https://github.com/RusinovAnton/scss-mixins-collection/releases)
 
 -----
 
