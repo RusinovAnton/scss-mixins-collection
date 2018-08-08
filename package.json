@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/RusinovAnton/scss-mixins-collection#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0"
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1"
   }
 }
